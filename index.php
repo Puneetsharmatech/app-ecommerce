@@ -104,7 +104,7 @@
             <div class="row it_works">
               <?php
 
-                        // $link = mysqli_connect('172.20.1.101', 'appuser', 'appuser', 'app');
+                        // $link = mysqli_connect('localhost', 'appuser', 'appuser', 'app');
                         // Fetch database connection details directly from environment variables
                         $dbHost = getenv('DB_HOST');
                         $dbUser = getenv('DB_USER');
